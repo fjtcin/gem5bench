@@ -1,0 +1,83 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:568: checking for a BSD compatible install
+configure:621: checking whether build environment is sane
+configure:678: checking whether make sets ${MAKE}
+configure:724: checking for working aclocal
+configure:737: checking for working autoconf
+configure:750: checking for working automake
+configure:763: checking for working autoheader
+configure:776: checking for working makeinfo
+configure:798: checking for gcc
+configure:911: checking whether the C compiler (aarch64-none-linux-gnu-gcc -g -O2 -Wall ) works
+configure:927: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -Wall   conftest.c  1>&5
+configure:924:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  924 | main(){return(0);}
+      | ^~~~
+configure:953: checking whether the C compiler (aarch64-none-linux-gnu-gcc -g -O2 -Wall ) is a cross-compiler
+configure:958: checking whether we are using GNU C
+configure:967: aarch64-none-linux-gnu-gcc -E conftest.c
+configure:986: checking whether aarch64-none-linux-gnu-gcc accepts -g
+configure:1018: checking for POSIXized ISC
+configure:1041: checking for gcc
+configure:1154: checking whether the C compiler (aarch64-none-linux-gnu-gcc -g -O2 -Wall ) works
+configure:1170: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -Wall   conftest.c  1>&5
+configure:1167:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ 1167 | main(){return(0);}
+      | ^~~~
+configure:1196: checking whether the C compiler (aarch64-none-linux-gnu-gcc -g -O2 -Wall ) is a cross-compiler
+configure:1201: checking whether we are using GNU C
+configure:1229: checking whether aarch64-none-linux-gnu-gcc accepts -g
+configure:1264: checking for aarch64-none-linux-gnu-gcc option to accept ANSI C
+configure:1317: aarch64-none-linux-gnu-gcc  -c -g -O2 -Wall  conftest.c 1>&5
+configure:1341: checking how to run the C preprocessor
+configure:1362: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1421: checking for ANSI C header files
+configure:1434: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1526: checking return type of signal handlers
+configure:1548: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:1544:5: warning: unused variable 'i' [-Wunused-variable]
+ 1544 | int i;
+      |     ^
+configure:1583: checking host system type
+configure:1687: checking for perl
+configure:1722: checking for csh
+configure:1813: checking for ranlib
+configure:1853: checking for ld used by GCC
+configure:1910: checking if the linker (/home/fjtcin/Documents/arm/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/13.2.1/../../../../aarch64-none-linux-gnu/bin/ld) is GNU ld
+GNU ld (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+configure:1926: checking for BSD-compatible nm
+configure:1963: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall  conftest.c 1>&5
+ltconfig:629: checking for executable suffix
+ltconfig:630: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -Wall   conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    1 | main () { return 0; }
+      | ^~~~
+ltconfig:776: checking if aarch64-none-linux-gnu-gcc PIC flag -fPIC works
+ltconfig:777: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if aarch64-none-linux-gnu-gcc supports -c -o file.o
+ltconfig:830: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if aarch64-none-linux-gnu-gcc supports -c -o file.lo
+ltconfig:863: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if aarch64-none-linux-gnu-gcc supports -fno-rtti -fno-exceptions
+ltconfig:915: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if aarch64-none-linux-gnu-gcc static flag -static works
+ltconfig:959: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -Wall   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    1 | main(){return(0);}
+      | ^~~~
+GNU ld (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+ltconfig:1635: checking if global_symbol_pipe works
+ltconfig:1636: aarch64-none-linux-gnu-gcc -c -g -O2 -Wall  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    9 | main(){nm_test_var='a';nm_test_func();return(0);}
+      | ^~~~
+ltconfig:1639: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2\3 \3/p' > conftest.nm"
+ltconfig:1691: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -Wall -fno-builtin   conftest.c conftstm.o 1>&5
+conftest.c:6:13: warning: 'main' is usually a function [-Wmain]
+    6 | extern char main;
+      |             ^~~~

@@ -1,0 +1,9 @@
+INFO: fbs_main.c(1077): libfbs/main COMPILED ON: Apr 15 2024, AT: 02:21:22
+
+INFO: live_norm.c(132): mean[0]= 8.00, mean[1..12]= 0.0
+INFO: uttproc.c(1443): LM= ""
+INFO: fbs_main.c(1217): libfbs/main COMPILED ON: Apr 15 2024, AT: 02:21:22
+
+INFO: uttproc.c(906): Batchmode
+INFO: uttproc.c(1100): Samples histogram (bigtest) (4/8/16/30/32K):WARNING: "uttproc.c", line 589: NO AGC
+INFO: search.c(2438): Renormalized in fwd pass; cannot rescore lattice

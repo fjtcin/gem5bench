@@ -1,0 +1,44 @@
+00 Basser Lout Version 3.24 (October 2000) database index file
+00symbol 1 @BasicSetup @DocumentSetup @TheoremCounterMarker
+00symbol 10 @BasicSetup @DocumentSetup @FigureCounterMarker
+00symbol 11 @BasicSetup @DocumentSetup @TablePrefixMarker
+00symbol 12 @BasicSetup @DocumentSetup @TableCounterMarker
+00symbol 13 @BasicSetup @PageMarker
+00symbol 14 @BasicSetup @DocumentSetup @FootNoteCounterMarker
+00symbol 15 @BasicSetup @DocumentSetup @Runner
+00symbol 16 @BasicSetup @NumberMarker
+00symbol 17 @BasicSetup listitem
+00symbol 2 @BasicSetup @DocumentSetup @DefinitionCounterMarker
+00symbol 3 @BasicSetup @DocumentSetup @ClaimCounterMarker
+00symbol 4 @BasicSetup @DocumentSetup @PropositionCounterMarker
+00symbol 5 @BasicSetup @DocumentSetup @LemmaCounterMarker
+00symbol 6 @BasicSetup @DocumentSetup @CorollaryCounterMarker
+00symbol 7 @BasicSetup @DocumentSetup @ExampleCounterMarker
+00symbol 8 @BasicSetup @NumDispCounterMarker
+00symbol 9 @BasicSetup @DocumentSetup @FigurePrefixMarker
+1&10.2599./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00001	0	1	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+10&10.3502./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00010	2023	105	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+11&10.3739./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00011	2172	112	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+12&10.3747./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00012	2318	119	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+13&7.1067./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00013	2466	126	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+13&7.1067./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.2	0	00020	3448	184	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+13&7.1067./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.3	0	00022	3831	205	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+13&7.1492./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00019	2466	126	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+13&last.page	0	00026	3831	205	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+14&10.1381./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00014	2816	151	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+14&10.1381./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.2	0	00021	3680	198	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+14&10.1381./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.3	0	00023	4070	220	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+15&10.796./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00025	4353	233	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+15&10.796./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.2	0	00015	2967	158	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+15&10.796./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.3	0	00024	4221	227	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+16&7.1052./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.2	0	00016	3096	164	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+16&7.1492./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00018	3096	164	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+17&7.1492./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00017	3233	171	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+2&10.2658./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00002	323	20	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+3&10.2713./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00003	538	30	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+4&10.2768./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00004	743	40	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+5&10.2823./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00005	960	50	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+6&10.2878./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00006	1165	60	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+7&10.2933./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00007	1378	70	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+8&7.1249./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00008	1587	80	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout
+9&10.3494./home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.1	0	00009	1876	98	/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout

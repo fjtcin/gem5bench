@@ -1,0 +1,156 @@
+/home/fjtcin/.cache/gem5/sphinx-bin \
+ -adcin TRUE \
+ -adcext 16k \
+ -ctloffset 0 \
+ -ctlcount 100000000 \
+ -agcmax FALSE \
+ -langwt 6.5 \
+ -fwdflatlw 8.5 \
+ -rescorelw 9.5 \
+ -ugwt 0.5 \
+ -fillpen 1e-10 \
+ -silpen 0.005 \
+ -inspen 0.65 \
+ -top 1 \
+ -topsenfrm 3 \
+ -topsenthresh \
+ -70000 \
+ -beam 2e-06 \
+ -npbeam 2e-06 \
+ -lpbeam 2e-05 \
+ -lponlybeam 0.0005 \
+ -nwbeam 0.0005 \
+ -fwdflat FALSE \
+ -fwdflatbeam 1e-08 \
+ -fwdflatnwbeam 0.0003 \
+ -bestpath TRUE \
+ -kbdumpdir /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle \
+ -lmfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.lm \
+ -dictfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.dic \
+ -noisedict /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/noisedict \
+ -phnfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/phone \
+ -mapfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/map \
+ -hmmdir /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k \
+ -hmmdirlist /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k \
+ -8bsen TRUE \
+ -sendumpfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/sendump \
+ -cbdir /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k \
+ -matchfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests/FOO \
+ -ctlfn /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests/bigtest.ctl \
+ -datadir /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests \
+ -verbose 10 
+
+
+
+kb_main.c(347): Reading phone file [/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/phone]
+Using 0 phonological mappings
+kb_main.c(356): Reading map file [/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/map]
+Read Map: 125716 phones map to 23355 unique senone sequences
+kb_main.c(360): Reading dict file [/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.dic]
+dict_load: first line of /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.dic was A, expecting '!'
+dict_load: will assume first line contains a word
+   111 = words in file [/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.dic]
+LEFT CONTEXT TABLES
+Entry Context table contains
+	    76 entries
+	  3876 possible cross word triphones.
+	  3268 triphones
+	   608 pseudo diphones
+	     0 uniphones
+Exit Context table contains
+	    76 entries
+	  3876 possible cross word triphones.
+	  3268 triphones
+	   608 pseudo diphones
+	     0 uniphones
+	  1605 right context entries
+	    21 ave entries per exit context
+RIGHT CONTEXT TABLES
+Entry Context table contains
+	    65 entries
+	  3315 possible cross word triphones.
+	  2730 triphones
+	   585 pseudo diphones
+	     0 uniphones
+Exit Context table contains
+	    65 entries
+	  3315 possible cross word triphones.
+	  2730 triphones
+	   585 pseudo diphones
+	     0 uniphones
+	  1625 right context entries
+	    25 ave entries per exit context
+    0 unique triphones were mapped to ci phones
+lm_3g.c(833): Reading LM file /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.lm (name "")
+lm_3g.c(864): ngrams 1=91, 2=212, 3=177
+lm_3g.c(872): 114 words in dictionary
+lm_3g.c(1406): Looking for precompiled LM dump file /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.lm.DMP
+lm_3g.c(1410): Precompiled file not found; continue with LM file
+lm_3g.c(522): Reading unigrams
+      91 = #unigrams created
+lm_3g.c(567): Reading bigrams
+
+     212 = #bigrams created
+      20 = #prob2 entries
+      12 = #bo_wt2 entries
+lm_3g.c(647): Reading trigrams
+
+     177 = #trigrams created
+      12 = #prob3 entries
+lm_3g.c(1043): bo_wt(</s>) changed from -0.3010 to -99.0000
+lm_3g.c(1049): prob(<s>) changed from -0.9129 to -99.0000
+    6.50 = Language Weight
+    0.50 = Unigram Weight
+   -4308 = LOG (Insertion Penalty (0.65))
+lm_3g.c(1194): LM("") added
+lm_3g.c(1124): Adding 0 initial OOV words to LM
+hmm_tied_r.c(253): Loading HMMs from dump file /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/sendump
+hmm_tied_r.c(263): BEGIN FILE FORMAT DESCRIPTION
+SCVQInit: top 1, 6255 models, 1 dist, 0.000100 var floor.
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/cep.256.vec
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/cep.256.var
+sc_vq.c(1611): Quantizing senone PDFs to 8 bits
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/d2cep.256.vec
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/d2cep.256.var
+sc_vq.c(1611): Quantizing senone PDFs to 8 bits
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/p3cep.256.vec
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/p3cep.256.var
+sc_vq.c(1611): Quantizing senone PDFs to 8 bits
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/xcep.256.vec
+cep_rw.c(138): Byte reversing /home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/xcep.256.var
+sc_vq.c(1611): Quantizing senone PDFs to 8 bits
+search.c(3226): Estimating maximal search tree
+search.c(3338): max nonroot chan increased to 350
+search.c(3348):   73 root, 222 non-root channels, 6 single-phone words
+search.c(1784): topsen-window = 3, threshold = -70000
+ -608104 = new word beam width
+-1049840 = new phone beam width
+ -865624 = last phone beam width
+ -608104 = Last phone alone beam width
+  -52986 = LOG (Silence Word Penalty) + LOG (Phone Penalty)
+ -230270 = LOG (Filler Word Penalty) + LOG (Phone Penalty)
+       0 = newword penalty
+search.c(2763): LW = fwdtree: 6.5, fwdflat: 8.5, bestpath: 9.5
+search.c(3777): Flat-pass bw = 1.0e-08 (-1473728), nwbw = 3.0e-04 (-648968)
+search.c(3224): Creating search tree
+search.c(3348):   73 root, 222 non-root channels, 6 single-phone words
+search.c(1876): startword= <s> (id= 112)
+
+Utterance: bigtest
+search.c(1876): startword= <s> (id= 112)
+ 100.0%(566104) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 1035
+search.c(2194): Renormalizing Scores at frame 3397, best score -534915512
+FWDTREE: GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS  (bigtest -20091096 (A=-13958005 L=-6133091))
+    8336 words recognized (2/fr)
+  103512 phones in topsen (29/fr)
+22117680 senones evaluated (6255/fr)
+  454564 channels searched (128/fr), 223943 1st, 79970 last
+   17657 words for which last channels evaluated (4/fr)
+   29475 candidate words for entering last phone (8/fr)
+ 35.35 SoS,   0.34 sec elapsed,  0.01 xRT,   0.34 sec CPU,  0.01 xRT
+
+TOTAL Elapsed time 0.34 seconds
+TOTAL CPU time 0.34 seconds
+TOTAL Speech 35.35 seconds
+AVERAGE 0.01 xRT(Elapsed), 0.01 xRT(CPU)
+

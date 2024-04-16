@@ -1,0 +1,95 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:743:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  743 | main(){return(0);}
+      | ^~~~
+configure: In function 'main':
+configure:830:67: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+  830 | if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+      |                                                                   ^~~~
+configure:826:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+  825 | #include <ctype.h>
+  +++ |+#include <stdlib.h>
+  826 | #define ISLOWER(c) ('a' <= (c) && (c) <= 'z')
+configure:830:67: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+  830 | if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+      |                                                                   ^~~~
+configure:830:67: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:831:1: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+  831 | exit (0); }
+      | ^~~~
+configure:831:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure: In function 't':
+configure:1247:1: warning: implicit declaration of function 'gdbm_open' [-Wimplicit-function-declaration]
+ 1247 | gdbm_open()
+      | ^~~~~~~~~
+configure: In function 't':
+configure:1334:1: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+ 1334 | atan()
+      | ^~~~
+configure:1331:1: note: include '<math.h>' or provide a declaration of 'atan'
+ 1330 | #include "confdefs.h"
+  +++ |+#include <math.h>
+ 1331 | 
+configure:1334:1: warning: incompatible implicit declaration of built-in function 'atan' [-Wbuiltin-declaration-mismatch]
+ 1334 | atan()
+      | ^~~~
+configure:1334:1: note: include '<math.h>' or provide a declaration of 'atan'
+configure:1334:1: error: too few arguments to function 'atan'
+configure: In function 't':
+configure:1373:1: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+ 1373 | atan()
+      | ^~~~
+configure:1370:1: note: include '<math.h>' or provide a declaration of 'atan'
+ 1369 | #include "confdefs.h"
+  +++ |+#include <math.h>
+ 1370 | 
+configure:1373:1: warning: incompatible implicit declaration of built-in function 'atan' [-Wbuiltin-declaration-mismatch]
+ 1373 | atan()
+      | ^~~~
+configure:1373:1: note: include '<math.h>' or provide a declaration of 'atan'
+configure:1373:1: error: too few arguments to function 'atan'
+configure: In function 't':
+configure:1527:1: warning: implicit declaration of function 'XtMalloc' [-Wimplicit-function-declaration]
+ 1527 | ${x_direct_test_function}()
+      | ^~~~~~~~
+/usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+configure: In function 't':
+configure:1688:1: warning: implicit declaration of function 'dnet_ntoa' [-Wimplicit-function-declaration]
+ 1688 | dnet_ntoa()
+      | ^~~~~~~~~
+/usr/bin/ld: cannot find -ldnet: No such file or directory
+collect2: error: ld returned 1 exit status
+configure: In function 't':
+configure:1722:1: warning: implicit declaration of function 'dnet_ntoa' [-Wimplicit-function-declaration]
+ 1722 | dnet_ntoa()
+      | ^~~~~~~~~
+/usr/bin/ld: cannot find -ldnet_stub: No such file or directory
+collect2: error: ld returned 1 exit status
+configure: In function 't':
+configure:1761:1: warning: implicit declaration of function 't_accept' [-Wimplicit-function-declaration]
+ 1761 | t_accept()
+      | ^~~~~~~~
+/usr/bin/ld: /tmp/ccsnPNBV.o: in function `t':
+/home/fjtcin/Documents/prep/benchmark/mibench/office/rsynth/conftest.c:1761:(.text+0x10): undefined reference to `t_accept'
+collect2: error: ld returned 1 exit status
+configure: In function 't':
+configure:1799:1: warning: implicit declaration of function 'socket' [-Wimplicit-function-declaration]
+ 1799 | socket()
+      | ^~~~~~
+/usr/bin/ld: cannot find -lsocket: No such file or directory
+collect2: error: ld returned 1 exit status
+configure: In function 't':
+configure:1906:1: warning: implicit declaration of function 'XauReadAuth' [-Wimplicit-function-declaration]
+ 1906 | XauReadAuth()
+      | ^~~~~~~~~~~
+/usr/bin/ld: /tmp/ccY2b4IP.o: undefined reference to symbol 'XauReadAuth'
+/usr/bin/ld: /usr/lib/libXau.so.6: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+configure:1944:10: fatal error: audio/audiolib.h: No such file or directory
+ 1944 | #include <$ac_hdr>
+      |          ^~~~~~~~~         
+compilation terminated.

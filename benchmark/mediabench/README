@@ -1,0 +1,17 @@
+These are the mediabench benchmarks compiled under
+the simplescalar 2.0 compiler. In each directory,
+there are typically two readme files:
+
+README.BEN: This is my log from recompiling
+mediabench under simplescalar.
+
+README.MB: This is the original mediabench
+readme.
+
+-Benjamin Bishop
+ bishop@cse.psu.edu
+
+-------------------------
+
+We have modified some files. Check `mediabench.tar.gz` for all original files.
+We suggest you use the files here for ARM compilation.

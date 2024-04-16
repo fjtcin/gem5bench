@@ -1,0 +1,533 @@
+[
+    {
+        "category": "workload",
+        "id": "adpcmdecode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "adpcmdecode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/home/fjtcin/Documents/prep/benchmark/mediabench/adpcm/data/clinton.adpcm",
+            "stdout_file": "out.pcm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "adpcmdecode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/adpcm/bin/rawdaudio",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "adpcmencode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "adpcmencode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/home/fjtcin/Documents/prep/benchmark/mediabench/adpcm/data/clinton.pcm",
+            "stdout_file": "out.adpcm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "adpcmencode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/adpcm/bin/rawcaudio",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "epic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "epic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/epic/data/test_image.pgm", "-b", 25],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "epic-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/epic/bin/epic",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "unepic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "unepic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/epic/data/test.image.pgm.E"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "unepic-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/epic/bin/unepic",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "g721decode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "g721decode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-4", "-l", "-f", "/home/fjtcin/Documents/prep/benchmark/mediabench/g721/data/clinton.g721"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "g721decode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/g721/bin/decode",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "g721encode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "g721encode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-4", "-l", "-f", "/home/fjtcin/Documents/prep/benchmark/mediabench/g721/data/clinton.pcm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "g721encode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/g721/bin/encode",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "ghostsript",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "ghostsript-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-sDEVICE=ppm", "-dNOPAUSE", "-q", "-sOutputFile=/dev/null", "--", "../data/tiger.ps"],
+            "cwd": "/home/fjtcin/Documents/prep/benchmark/mediabench/ghostscript/src",
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "ghostsript-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/ghostscript/src/gs",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "gsmdecode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "gsm-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-fpld", "/home/fjtcin/Documents/prep/benchmark/mediabench/gsm/data/clinton.pcm.run.gsm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "gsmencode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "gsm-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-fpl", "/home/fjtcin/Documents/prep/benchmark/mediabench/gsm/data/clinton.pcm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "gsm-bin",
+        "description": "Both gsmdecode and gsmencode use the same binary /gsm/bin/toast. Although there is one another binary /gsm/bin/untoast, which defualts to decode, it is actually the same as /gsm/bin/toast (a hard link). The program is in decode mode if its name is untoast, but gem5 uses the binary id as the program name, therefore untoast also defualts to encode in gem5.",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/gsm/bin/toast",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "jpegdecode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "jpegdecode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-dct", "int", "-ppm", "/home/fjtcin/Documents/prep/benchmark/mediabench/jpeg/data/testimg.jpg"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.ppm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "jpegdecode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/jpeg/jpeg-6a/djpeg",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "jpegencode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "jpegencode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-dct", "int", "-progressive", "-opt", "/home/fjtcin/Documents/prep/benchmark/mediabench/jpeg/data/testimg.ppm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.jpeg",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "jpegencode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/jpeg/jpeg-6a/cjpeg",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mesamipmap",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mesamipmap-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/exec/out1"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mesamipmap-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/demos/mipmap",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mesaosdemo",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mesaosdemo-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/exec/out2"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mesaosdemo-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/demos/osdemo",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mesatexgen",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mesatexgen-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/exec/out3"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mesatexgen-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/demos/texgen",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mpeg2decode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mpeg2decode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-b", "/home/fjtcin/Documents/prep/benchmark/mediabench/mpeg2/data/mei16v2.m2v", "-r", "-f", "-o0", "tmp%d"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mpeg2decode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/mpeg2/bin/mpeg2decode",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mpeg2encode",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mpeg2encode-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mediabench/mpeg2/data/options.par", "out.m2v"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mpeg2encode-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mediabench/mpeg2/bin/mpeg2encode",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    }
+]

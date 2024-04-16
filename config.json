@@ -1,0 +1,12 @@
+{
+    "sources": {
+        "mediabench": {
+            "url": "file://localhost/home/fjtcin/Documents/prep/mediabench.json",
+            "isMongo": false
+        },
+        "mibench": {
+            "url": "file://localhost/home/fjtcin/Documents/prep/mibench.json",
+            "isMongo": false
+        }
+    }
+}

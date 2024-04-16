@@ -1,0 +1,12 @@
+Read 8 byte header.
+num_levels: 4, x_size: 256, y_size: 256, scale: 128.000000
+Read 3 bytes of Binsize Info.
+Read 513 bytes of Raw data.
+Read 36 bytes of Binsize Info.
+Read 280 byte huffman tree.
+Read 6592 bytes of encoded data.
+Read a total of 7432 bytes.
+Unquantizing pyramid ...
+Collapsing pyramid ... 
+UNEPIC time = 4293436803 milliseconds
+Writing output file ... 

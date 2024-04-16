@@ -1,0 +1,905 @@
+[
+    {
+        "category": "workload",
+        "id": "basicmath",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "basicmath-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "basicmath-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/automotive/basicmath/basicmath_large",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "bitcount",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "bitcount-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [1125000],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "bitcount-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/automotive/bitcount/bitcnts",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "qsort",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "qsort-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/automotive/qsort/input_large.dat"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "qsort-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/automotive/qsort/qsort_large",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "susans",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "susan-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/automotive/susan/input_large.pgm", "out.smoothing.pgm", "-s"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "susane",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "susan-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/automotive/susan/input_large.pgm", "out.edges.pgm", "-e"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "susanc",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "susan-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/automotive/susan/input_large.pgm", "out.corners.pgm", "-c"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "susan-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/automotive/susan/susan",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "jpegc",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "jpegc-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-dct", "int", "-progressive", "-opt", "-outfile", "out.jpeg", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/jpeg/input_large.ppm"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "jpegc-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/consumer/jpeg/jpeg-6a/cjpeg",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "jpegd",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "jpegd-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-dct", "int", "-ppm", "-outfile", "out.ppm", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/jpeg/input_large.jpg"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "jpegd-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/consumer/jpeg/jpeg-6a/djpeg",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "lame",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "lame-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/consumer/lame/large.wav", "out.mp3"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "lame-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/consumer/lame/lame3.70/lame",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "mad",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "mad-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["--time=30", "--output=wave:out.wav", "-v", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/mad/large.mp3"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "mad-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/consumer/mad/mad-0.14.2b/madplay",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "typeset",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "typeset-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-I", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/include", "-D", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/data", "-F", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/font", "-C", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/maps", "-H", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/hyph", "/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.ps",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "typeset-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/lout-3.24/lout",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "dijkstra",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "dijkstra-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/network/dijkstra/input.dat"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.dat",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "dijkstra-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/network/dijkstra/dijkstra_large",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "patricia",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "patricia-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/network/patricia/large.udp"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "patricia-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/network/patricia/patricia",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "ghostscriptstatic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "ghostscriptstatic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-sDEVICE=ppm", "-dNOPAUSE", "-q", "-sOutputFile=/dev/null", "--", "../data/large.ps"],
+            "cwd": "/home/fjtcin/Documents/prep/benchmark/mibench/office/ghostscript/src",
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "ghostscriptstatic-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/office/ghostscript/src/gs",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "rsynth",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "rsynth-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-a", "-q", "-o", "out.au"],
+            "stdin_file": "/home/fjtcin/Documents/prep/benchmark/mibench/office/rsynth/largeinput.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "rsynth-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/office/rsynth/say",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "sphinx",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "sphinx-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-adcin", "TRUE", "-adcext", "16k", "-ctloffset", 0, "-ctlcount", 100000000, "-agcmax", "FALSE", "-langwt", 6.5, "-fwdflatlw", 8.5, "-rescorelw", 9.5, "-ugwt", 0.5, "-fillpen", 1e-10, "-silpen", 0.005, "-inspen", 0.65, "-top", 1, "-topsenfrm", 3, "-topsenthresh", "-70000", "-beam", 2e-06, "-npbeam", 2e-06, "-lpbeam", 2e-05, "-lponlybeam", 0.0005, "-nwbeam", 0.0005, "-fwdflat", "FALSE", "-fwdflatbeam", 1e-08, "-fwdflatnwbeam", 0.0003, "-bestpath", "TRUE", "-kbdumpdir", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle", "-lmfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.lm", "-dictfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/lm/turtle/turtle.dic", "-noisedict", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/noisedict", "-phnfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/phone", "-mapfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/map", "-hmmdir", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k", "-hmmdirlist", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k", "-8bsen", "TRUE", "-sendumpfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k/sendump", "-cbdir", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/model/hmm/6k", "-matchfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests/FOO", "-ctlfn", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests/bigtest.ctl", "-datadir", "/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/tests", "-verbose", 10],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "sphinx-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/office/sphinx/src/examples/sphinx2-continuous",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "stringsearch",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "stringsearch-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "stringsearch-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/office/stringsearch/search_large",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "blowfishd",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "blowfish-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["d", "/home/fjtcin/Documents/prep/benchmark/mibench/security/blowfish/input_large.enc", "out.asc", "1234567890abcdeffedcba0987654321"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "blowfishe",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "blowfish-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["e", "/home/fjtcin/Documents/prep/benchmark/mibench/security/blowfish/input_large.asc", "out.enc", "1234567890abcdeffedcba0987654321"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "blowfish-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/security/blowfish/bf",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "rijndaeld",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "rijndael-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/security/rijndael/input_large.enc", "out.dec", "d", "1234567890abcdeffedcba09876543211234567890abcdeffedcba0987654321"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "rijndaele",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "rijndael-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/security/rijndael/input_large.asc", "out.enc", "e", "1234567890abcdeffedcba09876543211234567890abcdeffedcba0987654321"],
+            "stdin_file": "/dev/null",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "rijndael-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/security/rijndael/rijndael",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "sha",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "sha-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/security/sha/input_large.asc"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "sha-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/security/sha/sha",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "adpcmdecodestatic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "adpcmdecodestatic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/data/large.adpcm",
+            "stdout_file": "out.pcm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "adpcmdecodestatic-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/bin/rawdaudio",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "adpcmencodestatic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "adpcmencodestatic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [],
+            "stdin_file": "/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/data/large.pcm",
+            "stdout_file": "out.adpcm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "adpcmencodestatic-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/bin/rawcaudio",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "crc32",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "crc32-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/data/large.pcm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "crc32-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/CRC32/crc",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "fft",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "fft-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [8, 32768],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "ffti",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "fft-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": [8, 32768, "-i"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.inv.txt",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "fft-bin",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/FFT/fft",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    },
+    {
+        "category": "workload",
+        "id": "gsmdecodestatic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "gsmstatic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-fpsd", "-c", "/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/gsm/data/large.au.run.gsm"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.decode.run",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "workload",
+        "id": "gsmencodestatic",
+        "architecture": "ARM",
+        "function": "set_se_binary_workload",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ],
+        "resources": {
+            "binary": {
+                "id": "gsmstatic-bin",
+                "resource_version": "1.0.0"
+            }
+        },
+        "additional_params": {
+            "arguments": ["-fps", "-c", "/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/gsm/data/large.au"],
+            "stdin_file": "/dev/null",
+            "stdout_file": "out.encode.gsm",
+            "stderr_file": "err.txt"
+        }
+    },
+    {
+        "category": "binary",
+        "id": "gsmstatic-bin",
+        "description": "Both gsmdecode and gsmencode use the same binary /gsm/bin/toast. Although there is one another binary /gsm/bin/untoast, which defualts to decode, it is actually the same as /gsm/bin/toast (a hard link). The program is in decode mode if its name is untoast, but gem5 uses the binary id as the program name, therefore untoast also defualts to encode in gem5.",
+        "architecture": "ARM",
+        "is_zipped": false,
+        "md5sum": "",
+        "url": "file://localhost/home/fjtcin/Documents/prep/benchmark/mibench/telecomm/gsm/bin/toast",
+        "resource_version": "1.0.0",
+        "gem5_versions": [
+            "23"
+        ]
+    }
+]

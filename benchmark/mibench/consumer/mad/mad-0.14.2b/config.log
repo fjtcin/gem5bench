@@ -1,0 +1,343 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:744: checking for a BSD compatible install
+configure:797: checking whether build environment is sane
+configure:854: checking whether make sets ${MAKE}
+configure:900: checking for working aclocal
+configure:913: checking for working autoconf
+configure:926: checking for working automake
+configure:939: checking for working autoheader
+configure:952: checking for working makeinfo
+configure:980: checking host system type
+configure:1005: checking for gcc
+configure:1118: checking whether the C compiler (aarch64-none-linux-gnu-gcc  ) works
+configure:1134: aarch64-none-linux-gnu-gcc -o conftest    conftest.c  1>&5
+configure:1131:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ 1131 | main(){return(0);}
+      | ^~~~
+configure:1160: checking whether the C compiler (aarch64-none-linux-gnu-gcc  ) is a cross-compiler
+configure:1165: checking whether we are using GNU C
+configure:1174: aarch64-none-linux-gnu-gcc -E conftest.c
+configure:1193: checking whether aarch64-none-linux-gnu-gcc accepts -g
+configure:1226: checking for POSIXized ISC
+configure:1318: checking build system type
+configure:1338: checking for ranlib
+configure:1377: checking for ld used by GCC
+configure:1439: checking if the linker (/home/fjtcin/Documents/arm/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/bin/ld) is GNU ld
+GNU ld (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+configure:1455: checking for BSD-compatible nm
+configure:1491: checking whether ln -s works
+ltconfig:603: checking for object suffix
+ltconfig:604: aarch64-none-linux-gnu-gcc -c -g -O2  conftest.c 1>&5
+ltconfig:629: checking for executable suffix
+ltconfig:630: aarch64-none-linux-gnu-gcc -o conftest -g -O2   conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    1 | main () { return 0; }
+      | ^~~~
+ltconfig:776: checking if aarch64-none-linux-gnu-gcc PIC flag -fPIC works
+ltconfig:777: aarch64-none-linux-gnu-gcc -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+ltconfig:829: checking if aarch64-none-linux-gnu-gcc supports -c -o file.o
+ltconfig:830: aarch64-none-linux-gnu-gcc -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+ltconfig:862: checking if aarch64-none-linux-gnu-gcc supports -c -o file.lo
+ltconfig:863: aarch64-none-linux-gnu-gcc -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+ltconfig:914: checking if aarch64-none-linux-gnu-gcc supports -fno-rtti -fno-exceptions
+ltconfig:915: aarch64-none-linux-gnu-gcc -c -g -O2 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+ltconfig:958: checking if aarch64-none-linux-gnu-gcc static flag -static works
+ltconfig:959: aarch64-none-linux-gnu-gcc -o conftest -g -O2   -static conftest.c  1>&5
+conftest.c:1:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    1 | main(){return(0);}
+      | ^~~~
+GNU ld (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+ltconfig:1592: checking if global_symbol_pipe works
+ltconfig:1593: aarch64-none-linux-gnu-gcc -c -g -O2  conftest.c 1>&5
+conftest.c:9:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    9 | main(){nm_test_var='a';nm_test_func();return(0);}
+      | ^~~~
+ltconfig:1596: eval "/usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ 	]\([ABCDGISTW]\)[ 	][ 	]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2\3 \3/p' > conftest.nm"
+ltconfig:1648: aarch64-none-linux-gnu-gcc -o conftest -g -O2 -fno-builtin   conftest.c conftstm.o 1>&5
+configure:1680: checking how to run the C preprocessor
+configure:1701: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1761: checking whether aarch64-none-linux-gnu-gcc needs -traditional
+configure:1882: checking for ANSI C header files
+configure:1895: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1986: checking for working const
+configure:2040: aarch64-none-linux-gnu-gcc -c -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:2014:15: warning: unused variable 's' [-Wunused-variable]
+ 2014 |   char const *s = 0 ? (char *) 0 : (char const *) 0;
+      |               ^
+configure:2034:13: warning: unused variable 'foo' [-Wunused-variable]
+ 2034 |   const int foo = 10;
+      |             ^~~
+configure:2002:27: warning: unused variable 'zero' [-Wunused-variable]
+ 2002 | static struct point const zero = {0,0};
+      |                           ^~~~
+configure:1996:39: warning: unused variable 'x' [-Wunused-variable]
+ 1996 | typedef int charset[2]; const charset x = {0,0};
+      |                                       ^
+configure:2016:5: warning: 't' is used uninitialized [-Wuninitialized]
+ 2016 |   *t++ = 0;
+      |    ~^~
+configure:2013:9: note: 't' was declared here
+ 2013 |   char *t;
+      |         ^
+configure:2031:21: warning: 'b' is used uninitialized [-Wuninitialized]
+ 2031 |   struct s *b; b->j = 5;
+      |                ~~~~~^~~
+configure:2031:13: note: 'b' was declared here
+ 2031 |   struct s *b; b->j = 5;
+      |             ^
+configure:2061: checking for inline
+configure:2075: aarch64-none-linux-gnu-gcc -c -Wall  conftest.c 1>&5
+configure:2101: checking for off_t
+configure:2134: checking for size_t
+configure:2169: checking for working alloca.h
+configure:2181: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure: In function 'main':
+configure:2177:7: warning: unused variable 'p' [-Wunused-variable]
+ 2177 | void *p = alloca(2 * sizeof(int));
+      |       ^
+configure:2202: checking for alloca
+configure:2235: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure: In function 'main':
+configure:2231:7: warning: unused variable 'p' [-Wunused-variable]
+ 2231 | char *p = (char *) alloca(1);
+      |       ^
+configure:2404: checking for unistd.h
+configure:2414: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2443: checking for getpagesize
+configure:2471: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2496: checking for working mmap
+configure:2675: checking for argz.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for limits.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for locale.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for nl_types.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for malloc.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for string.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2675: checking for unistd.h
+configure:2675: checking for sys/param.h
+configure:2685: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2715: checking for getcwd
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for munmap
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for putenv
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for setenv
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for setlocale
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for strchr
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strchr'; expected 'char *(const char *, int)' [-Wbuiltin-declaration-mismatch]
+ 2727 | char $ac_func();
+      |      ^~~~~~
+configure:2724:1: note: 'strchr' is declared in header '<string.h>'
+ 2723 | #include <assert.h>
+  +++ |+#include <string.h>
+ 2724 | /* Override any gcc2 internal prototype to avoid an error.  */
+configure:2715: checking for strcasecmp
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strcasecmp'; expected 'int(const char *, const char *)' [-Wbuiltin-declaration-mismatch]
+ 2727 | char $ac_func();
+      |      ^~~~~~~~~~
+configure:2715: checking for strdup
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2727:6: warning: conflicting types for built-in function 'strdup'; expected 'char *(const char *)' [-Wbuiltin-declaration-mismatch]
+ 2727 | char $ac_func();
+      |      ^~~~~~
+configure:2715: checking for __argz_count
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for __argz_stringify
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2715: checking for __argz_next
+configure:2743: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2772: checking for stpcpy
+configure:2800: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2784:6: warning: conflicting types for built-in function 'stpcpy'; expected 'char *(char *, const char *)' [-Wbuiltin-declaration-mismatch]
+ 2784 | char $ac_func();
+      |      ^~~~~~
+configure:2834: checking for LC_MESSAGES
+configure:2846: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:2867: checking whether NLS is requested
+configure:2887: checking whether included gettext is requested
+configure:2906: checking for libintl.h
+configure:2916: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2933: checking for gettext in libc
+configure:2945: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure: In function 'main':
+configure:2941:8: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+ 2941 | return (int) gettext ("")
+      |        ^
+configure:3060: checking for msgfmt
+configure:3094: checking for dcgettext
+configure:3122: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:3106:6: warning: conflicting types for built-in function 'dcgettext'; expected 'char *(const char *, const char *, int)' [-Wbuiltin-declaration-mismatch]
+ 3106 | char $ac_func();
+      |      ^~~~~~~~~
+configure:3149: checking for gmsgfmt
+configure:3185: checking for xgettext
+configure:3225: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:3683: checking for catalogs to be installed
+configure:3788: checking for ANSI C header files
+configure:3897: checking for assert.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for termios.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for stropts.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3903:10: fatal error: stropts.h: No such file or directory
+ 3903 | #include <$ac_hdr>
+      |          ^~~~~~~~~  
+compilation terminated.
+configure: failed program was:
+#line 3902 "configure"
+#include "confdefs.h"
+#include <stropts.h>
+configure:3897: checking for sys/types.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for fcntl.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for errno.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for sys/soundcard.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3897: checking for machine/soundcard.h
+configure:3907: aarch64-none-linux-gnu-gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3903:10: fatal error: machine/soundcard.h: No such file or directory
+ 3903 | #include <$ac_hdr>
+      |          ^~~~~~~~~            
+compilation terminated.
+configure: failed program was:
+#line 3902 "configure"
+#include "confdefs.h"
+#include <machine/soundcard.h>
+configure:3936: checking for working const
+configure:4011: checking for inline
+configure:4051: checking whether byte ordering is bigendian
+configure:4069: aarch64-none-linux-gnu-gcc -c -Wall  conftest.c 1>&5
+configure:4084: aarch64-none-linux-gnu-gcc -c -Wall  conftest.c 1>&5
+configure: In function 'main':
+configure:4079:2: error: unknown type name 'not'; did you mean 'ino_t'?
+ 4079 |  not big endian
+      |  ^~~
+      |  ino_t
+configure:4079:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'endian'
+ 4079 |  not big endian
+      |          ^~~~~~
+configure: failed program was:
+#line 4073 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+#include <sys/param.h>
+int main() {
+
+#if BYTE_ORDER != BIG_ENDIAN
+ not big endian
+#endif
+; return 0; }
+configure:4143: checking for vprintf
+configure:4171: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:4155:6: warning: conflicting types for built-in function 'vprintf'; expected 'int(const char *, __va_list)' [-Wbuiltin-declaration-mismatch]
+ 4155 | char vprintf();
+      |      ^~~~~~~
+configure:4152:1: note: 'vprintf' is declared in header '<stdio.h>'
+ 4151 | #include <assert.h>
+  +++ |+#include <stdio.h>
+ 4152 | /* Override any gcc2 internal prototype to avoid an error.  */
+configure:4250: checking for madvise
+configure:4278: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:4250: checking for localeconv
+configure:4278: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:4305: checking for strcasecmp
+configure:4305: checking for strncasecmp
+configure:4333: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:4317:6: warning: conflicting types for built-in function 'strncasecmp'; expected 'int(const char *, const char *, long unsigned int)' [-Wbuiltin-declaration-mismatch]
+ 4317 | char $ac_func();
+      |      ^~~~~~~~~~~
+configure:4361: checking for library containing pow
+configure:4379: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c  1>&5
+configure:4372:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+ 4372 | char pow();
+      |      ^~~
+configure:4369:1: note: 'pow' is declared in header '<math.h>'
+ 4368 | #include "confdefs.h"
+  +++ |+#include <math.h>
+ 4369 | /* Override any gcc2 internal prototype to avoid an error.  */
+/home/fjtcin/Documents/arm/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/13.2.1/../../../../aarch64-none-linux-gnu/bin/ld: /tmp/ccfLVIHC.o: in function `main':
+conftest.c:(.text+0x8): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4368 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char pow();
+
+int main() {
+pow()
+; return 0; }
+configure:4401: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c -lm   1>&5
+configure:4394:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+ 4394 | char pow();
+      |      ^~~
+configure:4391:1: note: 'pow' is declared in header '<math.h>'
+ 4390 | #include "confdefs.h"
+  +++ |+#include <math.h>
+ 4391 | /* Override any gcc2 internal prototype to avoid an error.  */
+configure:4423: checking for library containing log10
+configure:4441: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c -lm  1>&5
+configure:4434:6: warning: conflicting types for built-in function 'log10'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+ 4434 | char log10();
+      |      ^~~~~
+configure:4431:1: note: 'log10' is declared in header '<math.h>'
+ 4430 | #include "confdefs.h"
+  +++ |+#include <math.h>
+ 4431 | /* Override any gcc2 internal prototype to avoid an error.  */
+configure:4487: checking for compress2 in -lz
+configure:4506: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c -lz  -lm  1>&5
+/home/fjtcin/Documents/arm/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/13.2.1/../../../../aarch64-none-linux-gnu/bin/ld: cannot find -lz: No such file or directory
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4495 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char compress2();
+
+int main() {
+compress2()
+; return 0; }
+configure:4806: checking whether to use mmap
+configure:4882: checking for audio support
+configure:4915:11: fatal error: mmsystem.h: No such file or directory
+ 4915 | # include <mmsystem.h>
+      |           ^~~~~~~~~~~~
+compilation terminated.
+configure:4995: checking for esd_open_sound in -lesd
+configure:5014: aarch64-none-linux-gnu-gcc -o conftest -Wall   conftest.c -lesd  -lm  1>&5
+/home/fjtcin/Documents/arm/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/13.2.1/../../../../aarch64-none-linux-gnu/bin/ld: cannot find -lesd: No such file or directory
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5003 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char esd_open_sound();
+
+int main() {
+esd_open_sound()
+; return 0; }
+configure:5119: checking whether to enable profiling
+configure:5133: checking whether to enable debugging
+configure:5220: checking whether to enable experimental code

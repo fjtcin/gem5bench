@@ -1,0 +1,2 @@
+lout:
+         internal error: rename(/home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.ldx, /home/fjtcin/Documents/prep/benchmark/mibench/consumer/typeset/large.lout.ld) failed
