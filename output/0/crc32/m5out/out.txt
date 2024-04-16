@@ -1,0 +1,1 @@
+FFFFFFFFDC8B7C2A 26611200 /home/fjtcin/Documents/prep/benchmark/mibench/telecomm/adpcm/data/large.pcm

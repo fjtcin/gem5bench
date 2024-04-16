@@ -13,6 +13,7 @@ for x in MIBENCH_DICT.values():
 
 RESOURCES = MEDIABENCH + MIBENCH
 print(f'Number of resources: {len(RESOURCES)}.')
+NUM_RUNS = 11
 
 parser = argparse.ArgumentParser(description="Batch running gem5 simulations.")
 parser.add_argument('-j', type=int, default=32, help='Number of parallel jobs.')
@@ -38,7 +39,7 @@ output_dir = cwd / 'output'
 gem5 = '/home/fjtcin/Documents/gem5/build/ARM/gem5.opt'
 sub_proc = []
 
-for i in range(1, 11):
+for i in range(NUM_RUNS):
     if i == 3: width = '4'
     else: width = '8'
 
@@ -55,10 +56,11 @@ for i in range(1, 11):
     if i == 10: l2assoc = '4'
     else: l2assoc = '16'
 
-    if i == 2: l1dmshr = '2'
+    if i == 1 or i == 2: l1dmshr = '2'
     else: l1dmshr = '6'
     l1imshr = '2'
-    l2mshr = '16'
+    if i == 1: l2mshr = '2'
+    else: l2mshr = '16'
 
     if i == 8: l2policy = 'LRU'
     else: l2policy = 'Random'

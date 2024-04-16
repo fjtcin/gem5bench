@@ -147,10 +147,10 @@ FWDTREE: GO FORWARD TEN METERS GO FORWARD TEN METERS GO FORWARD TEN METERS GO FO
   454564 channels searched (128/fr), 223943 1st, 79970 last
    17657 words for which last channels evaluated (4/fr)
    29475 candidate words for entering last phone (8/fr)
- 35.35 SoS,   1.33 sec elapsed,  0.04 xRT,   1.33 sec CPU,  0.04 xRT
+ 35.35 SoS,   1.38 sec elapsed,  0.04 xRT,   1.38 sec CPU,  0.04 xRT
 
-TOTAL Elapsed time 1.33 seconds
-TOTAL CPU time 1.33 seconds
+TOTAL Elapsed time 1.38 seconds
+TOTAL CPU time 1.38 seconds
 TOTAL Speech 35.35 seconds
 AVERAGE 0.04 xRT(Elapsed), 0.04 xRT(CPU)
 

@@ -4,11 +4,11 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 23.1.0.0
 gem5 compiled Apr 15 2024 16:06:58
-gem5 started Apr 15 2024 18:28:43
-gem5 executing on archlinux, pid 262835
-command line: /home/fjtcin/Documents/gem5/build/ARM/gem5.opt /home/fjtcin/Documents/prep/test.py --resource epic --width 8 --freq 1GHz --l1dsize 32KiB --l1dassoc 2 --l1dmshr 6 --l1isize 32KiB --l1iassoc 2 --l1imshr 2 --l2size 1MiB --l2assoc 16 --l2mshr 16 --l2policy Random --cache_line 64
+gem5 started Apr 16 2024 08:34:32
+gem5 executing on archlinux, pid 52486
+command line: /home/fjtcin/Documents/gem5/build/ARM/gem5.opt /home/fjtcin/Documents/prep/test.py --resource epic --width 8 --freq 1GHz --l1dsize 32KiB --l1dassoc 2 --l1dmshr 2 --l1isize 32KiB --l1iassoc 2 --l1imshr 2 --l2size 1MiB --l2assoc 16 --l2mshr 2 --l2policy Random --cache_line 64
 
 info: Using config file specified by $GEM5_CONFIG
 info: Using config file at /home/fjtcin/Documents/prep/config.json
 Resource 'epic-bin' is being copied from '/home/fjtcin/Documents/prep/benchmark/mediabench/epic/bin/epic' to '/home/fjtcin/.cache/gem5/epic-bin'...
-Exiting @ tick 54914262000 because exiting with last active thread context.
+Exiting @ tick 55416509000 because exiting with last active thread context.

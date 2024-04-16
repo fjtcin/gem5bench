@@ -304,7 +304,7 @@
                     "is_read_only": false,
                     "max_miss_count": 0,
                     "move_contractions": true,
-                    "mshrs": 6,
+                    "mshrs": 2,
                     "power_model": [],
                     "power_state": {
                         "type": "PowerState",
@@ -579,7 +579,7 @@
                     "is_read_only": false,
                     "max_miss_count": 0,
                     "move_contractions": true,
-                    "mshrs": 16,
+                    "mshrs": 2,
                     "power_model": [],
                     "power_state": {
                         "type": "PowerState",

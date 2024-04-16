@@ -1,0 +1,14 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.1.0.0
+gem5 compiled Apr 15 2024 16:06:58
+gem5 started Apr 15 2024 18:28:43
+gem5 executing on archlinux, pid 262846
+command line: /home/fjtcin/Documents/gem5/build/ARM/gem5.opt /home/fjtcin/Documents/prep/test.py --resource mesatexgen --width 8 --freq 1GHz --l1dsize 32KiB --l1dassoc 2 --l1dmshr 6 --l1isize 32KiB --l1iassoc 2 --l1imshr 2 --l2size 1MiB --l2assoc 16 --l2mshr 16 --l2policy Random --cache_line 64
+
+info: Using config file specified by $GEM5_CONFIG
+info: Using config file at /home/fjtcin/Documents/prep/config.json
+Resource 'mesatexgen-bin' is being copied from '/home/fjtcin/Documents/prep/benchmark/mediabench/mesa/demos/texgen' to '/home/fjtcin/.cache/gem5/mesatexgen-bin'...
+Exiting @ tick 66474989000 because exiting with last active thread context.
