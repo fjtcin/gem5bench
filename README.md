@@ -14,6 +14,16 @@ cwd: Optional[str] = None,
 stdin_file: Optional[str] = None,
 stdout_file: Optional[str] = None,
 stderr_file: Optional[str] = None,
+
+# se_binary_workload.py, in function set_se_binary_workload
+if cwd is not None:
+    process.cwd = cwd
+if stdin_file is not None:
+    process.input = stdin_file
+if stdout_file is not None:
+    process.output = stdout_file
+if stderr_file is not None:
+    process.errout = stderr_file
 ```
 
 ```c++
@@ -46,7 +56,8 @@ After making these necessary changes, you can run the command below. It will cre
 python main.py -j32
 ```
 
-> Version of our gem5 (git hash)
+> Version of our gem5 (git hash):
+>
 > ee6f1377d7c54422137dfa47cd4d73407814867d
 
 ## Notes on compiling
@@ -54,4 +65,5 @@ python main.py -j32
 We have compiled most benchmark tasks to the aarch64 format binaries successfully. You can find the source codes and corresponding binaries in the `benchmark` directory. We have changed some Makefiles and even source codes, otherwise there will be errors when compiling. These changes are made only to resolve compilation errors, and they do not change any behavior of the programs. The compressed tarballs contain all the original source codes.
 
 > Version of our compiler:
+>
 > aarch64-none-linux-gnu-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009
