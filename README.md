@@ -67,3 +67,50 @@ We have compiled most benchmark tasks to the aarch64 format binaries successfull
 > Version of our compiler:
 >
 > aarch64-none-linux-gnu-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009
+
+### Failed benchmark programs
+
+Currently, there are still some benchmark programs we failed to run successfuly. If you have any idea, feel free to contribute.
+
+### mediabench/pegwit
+
+The program can be compiled successfully, but when running, it will cause errors:
+
+```text
+*** stack smashing detected ***: terminated
+Aborted (core dumped)
+```
+
+and
+
+```text
+Bus error (core dumped)
+```
+
+### mediabench/pgp and mibench/security/pgp
+
+The program can be compiled successfully, but when running, it will cause errors:
+
+```text
+Segmentation fault (core dumped)
+```
+
+### mediabench/rasta
+
+We failed to compile this program. The program relies on the SPHERE C-language library, but we cannot get the linking object required (-lsp) for the aarch64 architecture. [It is said](https://stackoverflow.com/questions/16394518/nist-sphere-format-files) that `sphere_2.6a.tar` is not supported on modern systems.
+
+### mibench/consumer/tiff
+
+The program can be compiled successfully, but when running, it will cause errors:
+
+```text
+Seek error accessing TIFF directory.
+```
+
+### mibench/office/ispell
+
+The program can be compiled successfully, but when running, it will cause errors:
+
+```text
+Illegal format hash table
+```
